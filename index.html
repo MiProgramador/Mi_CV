@@ -17,11 +17,11 @@
       background-color: #1f1f1f;
       color: #fff;
     }
-    .carousel-item {
-      padding: 60px;
+    section {
+      padding: 60px 0;
     }
     h2 {
-      color: #f8f6f6; /* Accent pink */
+      color: #ffffff; /* Accent pink */
     }
     .card {
       background-color: #1f1f1f;
@@ -43,106 +43,91 @@
     <a href="https://wa.me/522212720554" class="btn btn-outline-light">
       <i class="fab fa-whatsapp"></i> Contact Me
     </a>
-    <p>Email: lo.reb.mar@gmail.com | Phone: +52 221 272 0554</p>
+    <p>Email: lo.reb.mar@gmail.com </p>
   </header>
 
-  <!-- Carousel -->
-  <div id="cvCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-
-      <!-- Professional Profile -->
-      <div class="carousel-item active">
-        <h2 class="text-center mb-4">Professional Profile</h2>
-        <div class="card">
-          <div class="card-body">
-            <p>Fullstack Developer with experience in government projects, SAP BI consulting, and university teaching. Specialized in Python, JavaScript, Node.js, React with focus on UX, scalability, and best practices. Skilled at connecting backend and frontend to build complete and functional applications.</p>
-          </div>
-        </div>
+  <!-- Professional Profile -->
+  <section id="profile" class="container">
+    <h2 class="text-center mb-4">Professional Profile</h2>
+    <div class="card">
+      <div class="card-body">
+        <p>Fullstack Developer with experience in government projects, SAP BI consulting, and university teaching. Specialized in Python, JavaScript, Node.js, React with focus on UX, scalability, and best practices. Skilled at connecting backend and frontend to build complete and functional applications.</p>
       </div>
-
-      <!-- Technical Skills -->
-      <div class="carousel-item">
-        <h2 class="text-center mb-4">Technical Skills</h2>
-        <div class="card">
-          <div class="card-body">
-            <ul>
-              <li><strong>Frontend:</strong> JavaScript (ES6+), React, CSS, HTML, Bootstrap, P5.js, Tailwind</li>
-              <li><strong>Backend:</strong> Node.js, PHP, Python (FastAPI, Django)</li>
-              <li><strong>Databases:</strong> MySQL, SQLite, PostgreSQL, SQL Server</li>
-              <li><strong>Development Tools:</strong> Git, Visual Studio, Eclipse, NetBeans, WordPress, Codepen</li>
-              <li><strong>Methodologies:</strong> SCRUM, UML, RUP</li>
-              <li><strong>Enterprise Tools:</strong> SAP BI (Universe Design, Web Intelligence, Dashboard Design, Lumira, Design Studio SDK)</li>
-              <li><strong>AI Tools:</strong> Claude, Codex, ChatGPT, Copilot, Gemini, Canva, Design, OpenCode, Kimi-K2-Thinking</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- Experience -->
-      <div class="carousel-item">
-        <h2 class="text-center mb-4">Professional Experience</h2>
-        <div class="card">
-          <div class="card-body">
-            <ul>
-              <li><strong>BYJUS Future School</strong> – Programming Teacher (May 2021 – May 2024)</li>
-              <li><strong>UPAEP University</strong> – Informatics Teacher (Jan 2017 – Jun 2018)</li>
-              <li><strong>SAP BI Freelance Consultant</strong> (Jan 2008 – Mar 2016)</li>
-              <li><strong>Government of Puebla – REMA</strong> Developer (Oct 2001 – Jan 2008)</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- Education -->
-      <div class="carousel-item">
-        <h2 class="text-center mb-4">Education</h2>
-        <div class="card">
-          <div class="card-body">
-            <ul>
-              <li>Fullstack Development – TECMILENIO (2026)</li>
-              <li>Master’s in Information Technologies – UPAEP (2005–2008)</li>
-              <li>Bachelor’s in Computer Science – BUAP (1996–2001)</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- Projects -->
-      <div class="carousel-item">
-        <h2 class="text-center mb-4">Highlighted Projects</h2>
-        <div class="card">
-          <div class="card-body">
-            <ul>
-              <li><strong>SAP BI Dashboards:</strong> Over 13 implementations of interactive reports for decision-making in manufacturing, energy, and healthcare.</li>
-              <li><strong>Environmental Monitoring Web App:</strong> Platform to visualize air quality data in real time.</li>
-              <li><strong>Secretaría de Economía Platform:</strong> PHP-based web platform for AMMJE 2008 project logistics with SME users.</li>
-              <li><strong>Educational Projects:</strong> Interactive applications with JavaScript, Firebase, and Bootstrap for programming students.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- Languages -->
-      <div class="carousel-item">
-        <h2 class="text-center mb-4">Languages</h2>
-        <div class="card">
-          <div class="card-body text-center">
-            <p><strong>Spanish:</strong> Native</p>
-            <p><strong>English:</strong> Intermediate</p>
-          </div>
-        </div>
-      </div>
-
     </div>
+  </section>
 
-    <!-- Controls -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#cvCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon bg-dark rounded-circle"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#cvCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon bg-dark rounded-circle"></span>
-    </button>
-  </div>
+  <!-- Technical Skills -->
+  <section id="skills" class="container">
+    <h2 class="text-center mb-4">Technical Skills</h2>
+    <div class="card">
+      <div class="card-body">
+        <ul>
+          <li><strong>Frontend:</strong> JavaScript (ES6+), React, CSS, HTML, Bootstrap, P5.js, Tailwind</li>
+          <li><strong>Backend:</strong> Node.js, PHP, Python (FastAPI, Django)</li>
+          <li><strong>Databases:</strong> MySQL, SQLite, PostgreSQL, SQL Server</li>
+          <li><strong>Development Tools:</strong> Git, Visual Studio, Eclipse, NetBeans, WordPress, Codepen</li>
+          <li><strong>Methodologies:</strong> SCRUM, UML, RUP</li>
+          <li><strong>Enterprise Tools:</strong> SAP BI (Universe Design, Web Intelligence, Dashboard Design, Lumira, Design Studio SDK)</li>
+          <li><strong>AI Tools:</strong> Claude, Codex, ChatGPT, Copilot, Gemini, Canva, Design, OpenCode, Kimi-K2-Thinking</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="container">
+    <h2 class="text-center mb-4">Professional Experience</h2>
+    <div class="card">
+      <div class="card-body">
+        <ul>
+          <li><strong>BYJUS Future School</strong> – Programming Teacher (May 2021 – May 2024)</li>
+          <li><strong>UPAEP University</strong> – Informatics Teacher (Jan 2017 – Jun 2018)</li>
+          <li><strong>SAP BI Freelance Consultant</strong> (Jan 2008 – Mar 2016)</li>
+          <li><strong>Government of Puebla – REMA</strong> Developer (Oct 2001 – Jan 2008)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="container">
+    <h2 class="text-center mb-4">Education</h2>
+    <div class="card">
+      <div class="card-body">
+        <ul>
+          <li>Fullstack Development – TECMILENIO (2026)</li>
+          <li>Master’s in Information Technologies – UPAEP (2005–2008)</li>
+          <li>Bachelor’s in Computer Science – BUAP (1996–2001)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container">
+    <h2 class="text-center mb-4">Highlighted Projects</h2>
+    <div class="card">
+      <div class="card-body">
+        <ul>
+          <li><strong>SAP BI Dashboards:</strong> Over 13 implementations of interactive reports for decision-making in manufacturing, energy, and healthcare.</li>
+          <li><strong>Environmental Monitoring Web App:</strong> Platform to visualize air quality data in real time.</li>
+          <li><strong>Secretaría de Economía Platform:</strong> PHP-based web platform for AMMJE 2008 project logistics with SME users.</li>
+          <li><strong>Educational Projects:</strong> Interactive applications with JavaScript, Firebase, and Bootstrap for programming students.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Languages -->
+  <section id="languages" class="container">
+    <h2 class="text-center mb-4">Languages</h2>
+    <div class="card">
+      <div class="card-body text-center">
+        <p><strong>Spanish:</strong> Native</p>
+        <p><strong>English:</strong> Intermediate</p>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer class="text-center py-4">
